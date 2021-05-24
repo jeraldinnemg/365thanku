@@ -23,7 +23,7 @@ Finally, the 365 thankU app, shows the today's date to the user.
 
 ### Screenshot
 
-![](365-app.png)
+![](src/365-app.png)
 
 ### Links
 
