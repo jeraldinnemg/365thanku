@@ -1,0 +1,138 @@
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;700&display=swap");
+
+* {
+  box-sizing: 0;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  font-family: "Ubuntu", sans-serif;
+  background-color: #9d65c9;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+/* ------------Container------------*/
+.container {
+  background-color: #d8aed3;
+  width: 380px;
+  border-radius: 20px;
+  position: relative;
+  color: #39065a;
+}
+
+/* ------------Header------------*/
+
+.container header {
+  background-image: url("https://images.unsplash.com/photo-1531646218238-b4f5b56a5ec7?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=751&q=80");
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 20px;
+  height: 250px;
+  position: relative;
+}
+
+.container h3 {
+  font-size: 32px;
+  position: absolute;
+  top: 50px;
+  left: 15px;
+}
+
+#date {
+  font-size: 18px;
+  font-weight: 700;
+  position: absolute;
+  bottom: 25px;
+  left: 20px;
+}
+
+.clear {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  font-size: 1.5rem;
+  cursor: pointer;
+}
+
+.clear:hover {
+  transform: rotate(60deg);
+  text-shadow: 1px 3px 5px #000;
+}
+
+/* ------------Content list-----------*/
+
+.content {
+  height: 50vh;
+  overflow-y: auto;
+}
+
+.item {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  list-style: none;
+  height: 45px;
+  position: relative;
+  border: 1px solid #e3e3e3;
+  padding: 0;
+  margin: 0;
+}
+
+.content ul li i.pray {
+  font-size: 20px;
+  color: #d84c73;
+  position: absolute;
+  padding-left: 5px;
+  left: 10px;
+  top: 10px;
+}
+
+.content ul li i.de {
+  font-size: 20px;
+  color: #d84c73;
+  position: absolute;
+  padding-left: 5px;
+  right: 15px;
+  top: 10px;
+  cursor: pointer;
+}
+
+.content ul li i.de:hover {
+  color: #ff3434;
+}
+
+/* ------------Add item------------*/
+
+.add-thank {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  background-color: #fff;
+  height: 45px;
+  border: none;
+  position: relative;
+  font-size: 18px;
+  color: #d84c73;
+  border-radius: 80px;
+}
+
+.add-thank i {
+  font-size: 20px;
+  position: absolute;
+  left: 16px;
+  cursor: pointer;
+}
+
+.add-thank input {
+  font-size: 16px;
+  position: absolute;
+  left: 45px;
+  border: none;
+  width: 80%;
+}
